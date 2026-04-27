@@ -25,3 +25,4 @@ Implements the Medallion Architecture (Bronze-Silver-Gold):
 - Structured Streaming
 
 ## 📁 Project Structure
+├── notebooks/ # All Databricks notebooks │ ├── 01_bronze/ # Raw data ingestion │ ├── 02_silver/ # Data transformation │ ├── 03_gold/ # Materialized views & analytics │ └── jobs/ # Scheduled jobs ├── config/ # Configuration files ├── docs/ # Documentation ├── sql/ # SQL queries & view definitions └── tests/ # Unit & integration tests
